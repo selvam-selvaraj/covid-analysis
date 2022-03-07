@@ -12,7 +12,7 @@ spark = SparkSession \
     .getOrCreate()
 
 #Reading the data
-data = spark.read.option('Header', 'True').format('csv').load(<path>)
+data = spark.read.option('Header', 'True').option('enclosedBy', '"').format('csv').load(<path>)
 
 '''
 Data prep 
