@@ -10,7 +10,7 @@ Data Quality
 
     - Null in province are replaced with unknown
     - province subgroups are ignored and aggregated on province level (as it out of scope for the requirement)
-    - (suggestion) --Country_Region contains non-country entities eg., winter olympics, these can be a data quality issues which addressed by maintaining DIM table and performing a quality check using external modules (pydeequ, Great_expectations)
+    - (suggestion) --Country_Region contains non-country entities eg., winter olympics, these can be a data quality issues which can be addressed by maintaining DIM table and performing a quality check using external modules (pydeequ, Great_expectations)
 
 Data prep 
 
